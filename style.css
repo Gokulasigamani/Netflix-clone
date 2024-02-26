@@ -1,0 +1,970 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&display=swap');
+*
+{
+    margin: 0;
+}
+body
+{
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  
+  background-color: rgba(0, 0, 0, 0.901);
+}
+
+@media (min-width:990px)
+{
+
+.net
+
+{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.net-bg
+{
+    width: 100%;
+    height: 100vh;
+    transform: scale(1.2);
+}
+.tint
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.77)
+}
+.nav
+{
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+}
+.logo
+{
+    width: 150px;
+    height: 50px;
+}
+.nav-flex
+{
+    display: flex;
+    gap: 14px;
+}
+.ln-btn
+{
+    text-decoration: none;
+    padding: 5px 50px;
+    border-radius: 4px;
+    color: white;
+    border: .5px solid rgba(255, 255, 255, 0.399);
+    background-color: rgba(0, 0, 0, 0.534);
+}
+.login-btn
+{
+    background-color: red;
+    padding: 5px 15px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.content
+
+{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: white;
+    transform: translate(-50%,-50%);
+    
+}
+.head-title
+{
+    font-size: 46px;
+    margin: 5px;
+}
+.desc
+{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.con-in
+{
+    width: 320px;
+    padding: 18px;
+    background-color: rgba(0, 0, 0, 0.39);
+    color: rgb(255, 255, 255);
+    border: .5px solid rgba(255, 255, 255, 0.399);
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.con-btn
+{
+    padding: 8px 35px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
+.in-flex
+{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+.tv-container
+{
+    width:100%;
+    height: 600px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+    margin-top: 10px;
+    background-color: black;
+}
+.left
+{
+    width: 50%;
+    margin-left: 140px;
+    
+}
+.tv-title
+{
+    font-size: 50px;
+}
+.tv-desc
+{
+    font-size: 20px;
+}
+.real-tv
+{
+    width: 495px;
+    position: relative;
+}
+.tv-img
+{
+    width: 100%;
+    position: relative;
+}
+.right
+{
+    width: 50%;
+    position: relative;
+}
+.tv-video
+{
+    position: absolute;
+    width: 80%;
+    margin-left: 60px;
+    margin-top: 60px;
+    
+}
+
+.faq-container
+{
+    width: 100%;
+    padding: 90px 0;
+    margin: 10px 0;
+    background-color: black;
+
+}
+.faq-title
+{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+
+}
+.faq
+{
+    margin: 0px auto;
+    width: 850px;
+    padding: 25px 25px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: normal;
+    background-color:rgba(176, 171, 171, 0.281);
+    transition: .3s;
+    margin-bottom: 10px;
+}
+.plus
+{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+.bi{
+    transition: .3s;
+}
+.box-title
+{
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+.d-desc
+{
+    margin-top: 10px;
+}
+details[open] .box-title:focus>svg.bi
+{
+    transform: rotate(45deg);
+}
+.faq:hover
+{
+    background-color:rgba(176, 171, 171, 0.522);
+}
+
+.desc-1
+{
+    color: white;
+    margin:20px  auto;
+    text-align: center;
+
+}
+.end-flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.footer
+{
+    width: 100%;
+    height: 500px;
+    padding: 30px 0;
+    background-color: black;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.footer-contents
+{
+    width: 70%;
+    margin: 50px auto;
+}
+.foot-title
+{
+    color: rgba(255, 255, 255, 0.675);
+    font-size: 18px;
+    font-weight: 400;
+}
+.foot-title-link
+{
+    color: rgba(255, 255, 255, 0.675);
+    margin-left: 4px;
+    font-size: 14px;
+}
+.first
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.foot-flex
+{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.675);
+    
+}
+.fo-btn
+{
+    padding: 4px 30px;
+    border: 1px solid rgba(255, 255, 255, 0.618);
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.links
+{
+    
+    color: rgba(255, 255, 255, 0.675);
+    font-size: 14px;
+    font-weight: 400;
+}
+    
+}
+
+@media(max-width:990px)and (min-width:586px)
+{
+.net
+{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.net-bg
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.3);
+}
+.tint
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.77)
+}
+.nav
+{
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+}
+.logo
+{
+    width: 90px;
+    height: 30px;
+}
+.nav-flex
+{
+    display: flex;
+    gap: 14px;
+}
+.ln-btn
+{
+    text-decoration: none;
+    padding: 5px 50px;
+    border-radius: 4px;
+    color: white;
+    border: .5px solid rgba(255, 255, 255, 0.399);
+    background-color: rgba(0, 0, 0, 0.534);
+}
+.login-btn
+{
+    background-color: red;
+    padding: 5px 15px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.content
+
+{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: white;
+    transform: translate(-50%,-50%);
+    
+}
+.head-title
+{
+    font-size: 38px;
+    margin: 5px;
+}
+.desc
+{
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+}
+
+.con-in
+{
+    width: 250px;
+    padding: 18px;
+    background-color: rgba(0, 0, 0, 0.39);
+    color: rgb(255, 255, 255);
+    border: .5px solid rgba(255, 255, 255, 0.399);
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.con-btn
+{
+    padding: 8px 17px;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
+.in-flex
+{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+.tv-container
+{
+    width:100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+    margin-top: 10px;
+    background-color: black;
+}
+.left
+{
+
+text-align: center;
+margin:auto;
+width: 90%;
+    
+}
+.tv-title
+{
+    font-size: 30px;
+}
+.tv-desc
+{
+    font-size: 20px;
+}
+.real-tv
+{
+    width: 495px;
+    position: relative;
+    margin: auto;
+}
+.tv-img
+{
+    width: 100%;
+    position: relative;
+}
+.right
+{
+   
+    position: relative;
+     margin: auto;
+     width: 90%;
+}
+.tv-video
+{
+    position: absolute;
+    width: 80%;
+    margin-left: 60px;
+    margin-top: 60px;
+    
+}
+
+.faq-container
+{
+    width: 100%;
+    padding: 90px 0;
+    margin: 10px 0;
+    background-color: black;
+
+}
+.faq-title
+{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+
+}
+.faq
+{
+    margin: 0px auto;
+    width: 500px;
+    padding: 25px 25px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: normal;
+    background-color:rgba(176, 171, 171, 0.281);
+    transition: .3s;
+    margin-bottom: 10px;
+}
+.plus
+{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+.box-title
+{
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+.d-desc
+{
+    margin-top: 10px;
+}
+
+.faq:hover
+{
+    background-color:rgba(176, 171, 171, 0.522);
+}
+.desc-1
+{
+    color: white;
+    margin:20px  auto;
+    text-align: center;
+
+}
+.end-flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+details[open] .box-title:focus>svg.bi
+{
+    transform: rotate(45deg);
+}
+
+.end-flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.footer
+{
+    width: 100%;
+    height: 500px;
+    padding: 30px 0;
+    background-color: black;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.footer-contents
+{
+    width: 60%;
+    margin: 20px auto;
+}
+.foot-title
+{
+    color: rgba(255, 255, 255, 0.675);
+    font-size: 18px;
+    font-weight: 400;
+}
+.foot-title-link
+{
+    color: rgba(255, 255, 255, 0.675);
+    margin-left: 4px;
+    font-size: 14px;
+}
+.first
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.foot-flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: rgba(255, 255, 255, 0.675);
+    
+}
+.fo-btn
+{
+    padding: 4px 30px;
+    border: 1px solid rgba(255, 255, 255, 0.618);
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.links
+{
+    
+    color: rgba(255, 255, 255, 0.675);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+}
+
+
+
+
+@media(max-width:586px)
+{
+    .net
+{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.net-bg
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+}
+.tint
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.829)
+}
+.nav
+{
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    justify-content:space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+.logo
+{
+    width: 90px;
+    height: 30px;
+}
+.nav-flex
+{
+    display: flex;
+    gap: 14px;
+}
+.ln-btn
+{
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 4px;
+    color: white;
+    border: .5px solid rgba(255, 255, 255, 0.399);
+    background-color: rgba(0, 0, 0, 0.534);
+}
+.login-btn
+{
+    background-color: red;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.content
+
+{
+    width: 70%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    text-align: center;
+    color: white;
+    transform: translate(-50%,-50%);
+    
+}
+.head-title
+{
+    font-size: 30px;
+    margin: 5px;
+}
+.desc
+{
+    font-size: 15px;
+    margin: 10px;
+    color: white;
+}
+
+.con-in
+{
+    width: 250px;
+    padding: 18px;
+    background-color: rgba(0, 0, 0, 0.39);
+    color: rgb(255, 255, 255);
+    border: .5px solid rgba(255, 255, 255, 0.399);
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.con-btn
+{
+    padding: 8px 17px;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
+.in-flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.tv-container
+{
+    width:100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+    margin-top: 10px;
+    background-color: black;
+}
+.left
+{
+
+text-align: center;
+margin:auto;
+width: 90%;
+    
+}
+.tv-title
+{
+    font-size: 30px;
+}
+.tv-desc
+{
+    font-size: 20px;
+}
+.real-tv
+{
+    width: 90%;
+    position: relative;
+    margin: auto;
+}
+.tv-img
+{
+    width: 100%;
+    position: relative;
+}
+.right
+{
+   
+    position: relative;
+     margin: auto;
+     width: 90%;
+}
+.tv-video
+{
+    position: absolute;
+    width: 80%;
+    margin-left: 30px;
+    margin-top: 40px;
+    
+}
+
+.faq-container
+{
+    width: 100%;
+    padding: 90px 0;
+    margin: 10px 0;
+    background-color: black;
+
+}
+.faq-title
+{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+
+}
+.faq
+{
+    margin: auto;
+    width: 80%;
+    padding: 15px 25px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: normal;
+    font-size: 10px;
+    background-color:rgba(176, 171, 171, 0.281);
+    transition: .3s;
+    margin-bottom: 10px;
+}
+.plus
+{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+.box-title
+{
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+.d-desc
+{
+    margin-top: 10px;
+}
+details[open] .box-title:focus>svg.bi
+{
+    transform: rotate(45deg);
+}
+.faq:hover
+{
+    background-color:rgba(176, 171, 171, 0.522);
+}
+.desc-1
+{
+    color: white;
+    margin:20px  auto;
+    text-align: center;
+
+}
+.end-flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.end-flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.footer
+{
+    width: 100%;
+    height: 500px;
+    padding: 30px 0;
+    background-color: black;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.footer-contents
+{
+    width: 60%;
+    margin: 20px auto;
+}
+.foot-title
+{
+    color: rgba(255, 255, 255, 0.675);
+    font-size: 18px;
+    font-weight: 400;
+}
+.foot-title-link
+{
+    color: rgba(255, 255, 255, 0.675);
+    margin-left: 4px;
+    font-size: 14px;
+}
+.first
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.foot-flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: rgba(255, 255, 255, 0.675);
+    
+}
+.fo-btn
+{
+    padding: 4px 30px;
+    border: 1px solid rgba(255, 255, 255, 0.618);
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.links
+{
+    
+    color: rgba(255, 255, 255, 0.675);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+}
+
+
+
